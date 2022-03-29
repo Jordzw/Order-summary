@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+body {
+    background: hsl(223, 80%, 90%);
+    background-image: url('./images/pattern-background-desktop.svg');
+    background-repeat: repeat-x;
+    display: flex;
+    overflow: hidden;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Red Hat Display', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-weight: 900;
+    margin: 0;
+}
+
+.header {}
+
+.content {
+    background: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    width: 25%;
+}
+
+.header img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+}
+
+.text {
+    color: hsl(224, 23%, 55%);
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+
+.plan {
+    background: rgba(248, 249, 254, 255);
+    border-radius: 10px;
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.plan__title {
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+
+.plan__price {
+    color: hsl(224, 23%, 55%);
+}
+
+.icone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+.price {
+    padding: .6rem;
+    margin-left: .5rem;
+}
+
+.change {
+    margin-left: auto;
+    text-decoration: underline;
+    padding: .6rem;
+    font-weight: 700;
+    color: hsl(245, 75%, 52%);
+}
+
+.cancel {
+    margin-bottom: 1rem;
+}
+
+.cancel a {
+    color: hsl(224, 23%, 55%);
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.btn__pay {
+    margin-bottom: .5rem;
+}
+
+button {
+    background: hsl(245, 75%, 52%);
+    border: 0;
+    border-radius: 5px;
+    padding: .9rem 0;
+    width: 80%;
+    color: white;
+    font-weight: 700;
+    -webkit-box-shadow: 0px 18px 21px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 18px 21px 2px rgba(0, 0, 0, 0.2);
+}
